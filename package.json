@@ -7,7 +7,7 @@
     "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
     "dev:client": "vite",
     "dev:server": "tsx watch server/index.ts",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "start": "node dist-server/index.js"
   },
@@ -30,6 +30,8 @@
     "react-router-dom": "^6.27.0",
     "recharts": "^2.13.0",
     "tailwind-merge": "^2.5.4",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.8",
     "zod": "^3.23.8"
   },
   "devDependencies": {
@@ -44,8 +46,6 @@
     "concurrently": "^9.0.1",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.13",
-    "tsx": "^4.19.1",
-    "typescript": "^5.6.3",
-    "vite": "^5.4.8"
+    "tsx": "^4.19.1"
   }
 }
